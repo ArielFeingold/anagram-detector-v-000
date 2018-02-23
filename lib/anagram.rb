@@ -1,12 +1,12 @@
 # Your code goes here!
 # require 'pry'
-class Anagram
-  attr_accessor :word, :word
-  @@anagram_array = []
-
-  def initialize(word)
-    @word = word
-  end
+# class Anagram
+#   attr_accessor :word,
+#   @@anagram_array = []
+#
+#   def initialize(word)
+#     @word = word
+#   end
 
   # def match(compare_array)
   #   compare_array.each do |w|
@@ -18,7 +18,7 @@ class Anagram
   # end
 
   class Anagram
-    attr_accessor :word, :word
+    attr_accessor :word,
     @@anagram_array = []
 
     def initialize(word)
@@ -33,5 +33,5 @@ class Anagram
       end
           @@anagram_array
     end
-    
+
 end
