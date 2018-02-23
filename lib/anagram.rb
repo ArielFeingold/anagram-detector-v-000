@@ -26,11 +26,10 @@
     end
 
     def match(compare_array)
-      # anagram_array = []
       compare_array.collect do |w|
         if w.split(//).sort == @word.split(//).sort
           w
         end
-      end.compact   
+      end.compact
     end
 end
