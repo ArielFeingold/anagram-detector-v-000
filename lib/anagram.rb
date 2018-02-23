@@ -31,8 +31,6 @@
         if w.split(//).sort == @word.split(//).sort
           w
         end
-      end
-          anagram_array
+      end        
     end
-
 end
