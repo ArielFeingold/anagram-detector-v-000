@@ -26,10 +26,10 @@
     end
 
     def match(compare_array)
-      anagram_array = []
-      compare_array.each do |w|
-        if  w.split(//).sort == @word.split(//).sort
-          anagram_array << w
+      # anagram_array = []
+      compare_array.collect do |w|
+        if w.split(//).sort == @word.split(//).sort
+          w
         end
       end
           anagram_array
