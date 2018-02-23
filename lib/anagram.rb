@@ -31,6 +31,7 @@
         if w.split(//).sort == @word.split(//).sort
           w
         end
-      end        
+      end
+      .compact   
     end
 end
