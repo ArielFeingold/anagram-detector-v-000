@@ -12,9 +12,9 @@ class Anagram
     compare_array.each do |w|
       if  w.split(//).sort == @word.split(//).sort
         @@anagram_array << w
+            @@anagram_array
       end
     end
-    @@anagram_array
   end
 
 end
