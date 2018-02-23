@@ -29,7 +29,7 @@
       anagram_array = []
       compare_array.each do |w|
         if  w.split(//).sort == @word.split(//).sort
-          @@anagram_array << w
+          anagram_array << w
         end
       end
           anagram_array
